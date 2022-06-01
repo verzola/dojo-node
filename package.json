@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "e2e": "playwright test",
     "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
     "playwright:install": "playwright install",
     "playwright:installdeps": "playwright install-deps",
     "test": "jest",
@@ -18,7 +20,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gustavo Verzola <verzola@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.2",
