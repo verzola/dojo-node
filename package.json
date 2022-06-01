@@ -8,7 +8,11 @@
     "test:dev": "jest --watch",
     "coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
@@ -29,9 +33,12 @@
     "@types/jest": "^27.5.1",
     "babel-jest": "^28.1.0",
     "babel-loader": "^8.2.5",
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "puppeteer": "^14.1.2"
   },
   "dependencies": {
+    "next": "^12.1.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }

@@ -1,4 +1,4 @@
-const fb = require('../src/fizzbuzz')
+import fb from '@src/fizzbuzz'
 
 test('it should return fizz for multiples of 3', () => {
     expect(fb(3)).toBe('fizz')
