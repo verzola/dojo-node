@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:e2e": "playwright test",
     "test:dev": "jest --watch",
     "coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
+    "@playwright/test": "^1.22.2",
     "@storybook/addon-actions": "^6.5.6",
     "@storybook/addon-essentials": "^6.5.6",
     "@storybook/addon-interactions": "^6.5.6",
