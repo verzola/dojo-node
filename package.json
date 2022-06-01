@@ -38,8 +38,7 @@
     "babel-jest": "^28.1.0",
     "babel-loader": "^8.2.5",
     "jest": "^28.1.0",
-    "jest-environment-jsdom": "^28.1.0",
-    "puppeteer": "^14.1.2"
+    "jest-environment-jsdom": "^28.1.0"
   },
   "dependencies": {
     "next": "^12.1.6",
