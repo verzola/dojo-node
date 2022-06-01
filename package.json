@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "test:e2e": "playwright test",
+    "playwright:install": "playwright install",
+    "playwright:installdeps": "playwright install-deps",
+    "test": "jest",
     "test:dev": "jest --watch",
     "coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
