@@ -1,0 +1,6 @@
+{
+  "*.js": [
+    "jest",
+    "playwright test"
+  ]
+}
