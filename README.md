@@ -5,6 +5,7 @@
 ```sh
 $ git clone git@github.com:verzola/dojo-node.git
 $ cd dojo-node
-$ npm install
-$ npm run test
+$ yarn dev # to start application
+$ yarn test # to run unit tests
+$ yarn e2e # to run end to end tests
 ```
