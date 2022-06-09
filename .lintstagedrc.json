@@ -1,6 +1,4 @@
 {
-  "*.js": [
-    "jest",
-    "playwright test"
-  ]
+  "*.js": ["jest", "prettier --write"],
+  "*.{css,md}": ["prettier --write"]
 }
