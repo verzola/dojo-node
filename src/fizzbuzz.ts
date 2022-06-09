@@ -12,4 +12,4 @@ function fb(number) {
   }
 }
 
-module.exports = fb;
+export default fb;
