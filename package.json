@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "e2e": "playwright test",
+    "e2e:chrome": "playwright test --project='Desktop Chrome'",
+    "e2e:firefox": "playwright test --project='Desktop Firefox'",
+    "e2e:safari": "playwright test --project='Desktop Safari'",
     "e2e:headed": "playwright test --headed",
     "e2e:install": "playwright install",
     "e2e:installdeps": "playwright install-deps",
